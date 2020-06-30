@@ -1,0 +1,4 @@
+1。创造一个新laravel app，
+创建视图-about.blade.php，并添加路由（再web.php中添加，通过get请求，在大约路径下可获取页面）
+创建控制器AboutController（终端artisan工具），在控制器中定义返回视图方法
+创建模型Todo，在.env中设置数据库连接配置，创建迁徙文件并创建表字段，执行数据库迁徙命令（php artisan migrate）
